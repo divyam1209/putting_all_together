@@ -5,61 +5,98 @@
 </head>
 <body>
 
-    <h1>Hello World !</h1>
-    <h2>Few facts about the world we live in</h2>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Earth Facts!</h1>
+        <h2>Few facts about the world we live in</h2>
+    </header>
 
-    <img src="earth.jpg" alt="Earth Image" width="600">
+    <!-- About Section -->
+    <section>
+        <h3>About This Website</h3>
+        <p>
+            Welcome to Earth Facts! This website is dedicated to sharing fascinating facts about our home planet. 
+            From scientific discoveries to geographical wonders, you'll find a wealth of knowledge here. 
+            We aim to inspire curiosity about Earth and promote awareness about its unique place in the universe. 
+            Join us as we explore the planet's features, history, and the mysteries it holds.
+        </p>
+    </section>
 
-    <p>
-        Earth is the third planet from the Sun and is the largest of the terrestrial planets.
-        The Earth is the only planet in our solar system not to be named after a Greek or Roman deity.
-        The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life.
-    </p>
+    <!-- Image Section -->
+    <section>
+        <h3>Planet Earth</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg" alt="Earth from Space" width="600">
+    </section>
 
-    <hr>
+    <!-- Services Section -->
+    <section>
+        <h3>Our Services</h3>
+        <ul>
+            <li>Educational Articles</li>
+            <li>Space Exploration News</li>
+            <li>Documentary Recommendations</li>
+            <li>Interactive Quizzes</li>
+        </ul>
+    </section>
 
-    <h3>About The earth</h3>
-    <ul>
-        <li>Mass: 5,972,190,000,000,000 billion kg</li>
-        <li>Equatorial Diameter: 12,756 km</li>
-        <li>Notable Moons : <a href="#">Moon</a></li>
-    </ul>
+    <!-- Video Section -->
+    <section>
+        <h3>Learn More About Earth</h3>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/UNQhuFL6CWg"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </section>
 
-    <hr>
+    <!-- Price List Section -->
+    <section>
+        <h3>Price List</h3>
+        <table border="1">
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Educational Articles</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>Space News Subscription</td>
+                <td>$5/month</td>
+            </tr>
+            <tr>
+                <td>Documentary Access</td>
+                <td>$10/month</td>
+            </tr>
+            <tr>
+                <td>Interactive Quizzes</td>
+                <td>Free</td>
+            </tr>
+        </table>
+    </section>
 
-    <!-- Embedded YouTube Video -->
-    <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/UNQhuFL6CWg"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
+    <!-- Form Section -->
+    <section>
+        <h3>Sign Up for Updates</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
 
-    <hr>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
 
-    <h4 style="color: blue;">Top 3 facts about earth</h4>
-    <ol>
-        <li>The Earth’s rotation is gradually slowing</li>
-        <li>Earth is at centre of universe</li>
-        <li>Earth has powerful magnitude feild</li>
-    </ol>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
 
-    <table border="0">
-        <tr>
-            <th>Name</th>
-            <th>Avg temp</th>
-        </tr>
-        <tr>
-            <td>Mars</td>
-            <td>-46 Degree</td>
-        </tr>
-        <tr>
-            <td>Venus</td>
-            <td>462 Degree</td>
-        </tr>
-    </table>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 
-    <p>Want to know more?</p>
-    <button>Submit</button>
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at: info@earthfacts.com | Phone: +123-456-7890</p>
+    </footer>
 
 </body>
 </html>
